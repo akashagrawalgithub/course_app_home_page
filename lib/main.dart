@@ -102,6 +102,9 @@ Widget _heading() {
 
 Widget _banner() {
   return Card(
+    shape: RoundedRectangleBorder(
+      borderRadius: BorderRadius.circular(10),
+    ),
     elevation: 3,
     margin: EdgeInsets.only(bottom: 20),
     child: Stack(
@@ -111,9 +114,12 @@ Widget _banner() {
           width: double.infinity,
           height: 200,
           decoration: const BoxDecoration(
+            borderRadius: BorderRadius.all(
+              Radius.circular(10),
+            ),
             image: DecorationImage(
               image: NetworkImage(
-                  "https://media.istockphoto.com/id/1360591377/vector/woman-working-in-front-of-tv.jpg?s=612x612&w=0&k=20&c=4oO9mvGZAXxUxV73TcAFpdSwos-JTJMwbN1TizNsMxs="),
+                  "https://img.freepik.com/premium-photo/pretty-cheerful-woman-typing-laptop-pastel-color-blue-background_488220-30945.jpg"),
               fit: BoxFit.cover,
             ),
           ),
@@ -126,7 +132,7 @@ Widget _banner() {
             style: TextStyle(
               fontSize: 16,
               // fontWeight: FontWeight.bold,
-              color: Colors.black,
+              color: Colors.white,
             ),
           ),
         ),
