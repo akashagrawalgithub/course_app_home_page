@@ -1,16 +1,11 @@
-# course_app
+# course app
 
 A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+# Course App UI
 
-A few resources to get you started if this is your first Flutter project:
+Welcome to the Course App UI, built using Flutter! This app provides an intuitive user interface for accessing and exploring various courses. With a clean and modern design, users can easily browse through available courses, view details, and select the ones that interest them. Whether you're a student looking to enhance your skills or someone eager to learn something new, our Course App UI offers a seamless experience to discover and engage with educational content.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Screenshot](https://i.ibb.co/GV3pYf0/Whats-App-Image-2023-08-19-at-18-52-07.jpg)
